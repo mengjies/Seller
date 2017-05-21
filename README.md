@@ -1,34 +1,34 @@
-# ��һ�����Ұ�
+# 来一单卖家版
 
 
-   ����Ŀ����һ������������̼Ұ汾������һ�����ǹ��ڵ����ϱ����괴ҵƽ̨����ͨ��һ���ֻ�APP��һ���棬��������������㲻������������Ʒ�������µ�����һ���棬������С΢��ҵ�߰ѱ����꿪�����ϣ���Լ����ȳɱ����ڷ��������ͬʱʵ�ֲƸ����ۡ�
+   该项目是来一单社区服务的商家版本。“来一单”是国内的网上便利店创业平台，它通过一款手机APP，一方面，让社区居民可以足不出户购买日用品，线上下单。另一方面，可以让小微创业者把便利店开到网上，节约房租等成本，在服务邻里的同时实现财富积累。
 
-# ����Ҫ��
+# 技术要点
 
-  ʹ��ORM���ݿ���Greendao���������б�����Ʒ���ࡢ�˻�������
+  使用ORM数据库框架Greendao处理城市列表、商品分类、账户等数据
 
-  ʹ��easyPermission��ܽ���6.0Ȩ�޹���
+  使用easyPermission框架进行6.0权限管理
   
-  �򵥷�װOKHttpʵ���첽ͨ�š��ļ��ϴ����ļ�����
+  简单封装OKHttp实现异步通信、文件上传、文件下载
   
-  ʹ��ImageLoader����ͼƬ������ͼƬ
+  使用ImageLoader加载图片、缓存图片
   
-  ʹ��zxing���ʵ�ֶ�ά�롢������ɨ�蹦��
+  使用zxing框架实现二维码、条形码扫描功能
   
-  ʹ��Bluetooth���Ӵ�ӡ����ӡСƱ
+  使用Bluetooth连接打印机打印小票
   
-  ʹ��֧����֧����΢��֧��
+  使用支付宝支付、微信支付
   
-  ʹ�øߵµ�ͼʵ�ֶ�λ����
+  使用高德地图实现定位功能
   
-  ʹ�ü�������ʵ����Ϣ���͵ȹ���
+  使用极光推送实现消息推送等功能
   
-  ����ϵͳ�����㲥ʵ�ֿ�����������
+  接收系统开机广播实现开机启动功能
 
     
-# ��ͼ
+# 截图
 <img src="screenshot/01.jpg" width="40%">
-<img src="screenshot/02t.jpg" width="40%">
+<img src="screenshot/02.jpg" width="40%">
 
-<img src="screenshot/03.jgp" width="40%">
+<img src="screenshot/03.jpg" width="40%">
 <img src="screenshot/04.jpg" width="40%">
